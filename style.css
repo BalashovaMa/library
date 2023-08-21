@@ -91,6 +91,7 @@ h1 {
     text-transform: capitalize;
     position: relative;
     margin-bottom: 3.81rem;
+    text-align: center;
 }
 
 .section-title::after {
@@ -110,6 +111,7 @@ h1 {
     font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 1.25rem;
+    text-align: center;
 }
 
 .carousel {
@@ -133,7 +135,7 @@ h1 {
 }
 
 .favorites {
-    padding: 1.25rem;
+    padding: 1.25rem 3.75rem 1.25rem 1.25rem;
     text-align: center;
 }
 
@@ -172,6 +174,13 @@ h1 {
     font-weight: 700;
 }
 
+.favorite-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .book {
     width: 34.7rem;
     height: 34.7rem;
@@ -179,6 +188,7 @@ h1 {
     padding: 20px 15px;
     text-align: start;
     position: relative;
+    margin-bottom: 2.5rem;
 }
 
 .book p:first-of-type {
@@ -247,4 +257,73 @@ h1 {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+.coffee-shop {
+    padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+}
+
+.coffee-shop-description {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-subtitle {
+    color: #bb945f;
+    font-family: 'Forum';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.menu-items {
+    list-style: none;
+}
+
+.menu-item {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu-item-name {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.menu-item-divider {
+    width: 100px;
+    height: 1px;
+    background: #bb945f;
+}
+
+.menu-item-price {
+    color: #000;
+    font-family: 'Forum';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
