@@ -52,7 +52,7 @@ header li {
             #0c0c0e 0.01%,
             rgba(18, 18, 21, 0.1) 100%
         ),
-        url(/assets/main-bg.jpg) lightgray 50% / cover no-repeat;
+        url(./assets/main-bg.jpg) lightgray 50% / cover no-repeat;
     padding-top: 15.3%;
 }
 
