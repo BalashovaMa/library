@@ -29,7 +29,7 @@ header {
 
 header nav {
     margin-left: auto;
-    margin-right: 2.5rem;
+    margin-right: 0.63rem;
 }
 
 header ul {
@@ -80,6 +80,7 @@ h1 {
 .about {
     padding: 1.25rem;
     text-align: center;
+    padding-bottom: 2.5rem;
 }
 
 .section-title {
@@ -90,14 +91,14 @@ h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
     position: relative;
-    margin-bottom: 3.81rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
 .section-title::after {
     content: '';
     position: absolute;
-    bottom: -0.62rem;
+    bottom: -1rem;
     left: 50%;
     transform: translateX(-50%);
     width: 3.12rem;
@@ -110,7 +111,7 @@ h1 {
     font-family: 'Inter';
     font-size: 1.25rem;
     font-weight: 400;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.7rem;
     text-align: center;
 }
 
@@ -135,7 +136,7 @@ h1 {
 }
 
 .favorites {
-    padding: 1.25rem 3.75rem 1.25rem 1.25rem;
+    padding: 1.25rem 1.25rem 3.75rem 1.25rem;
     text-align: center;
 }
 
@@ -145,7 +146,7 @@ h1 {
     font-size: 1.25rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 2.81rem;
+    margin-bottom: 2.1rem;
 }
 
 .season {
@@ -182,13 +183,14 @@ h1 {
 }
 
 .book {
-    width: 34.7rem;
+    width: 34.5rem;
     height: 34.7rem;
     border: 1px solid #000;
     padding: 20px 15px;
     text-align: start;
     position: relative;
     margin-bottom: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 .book p:first-of-type {
